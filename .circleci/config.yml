@@ -14,9 +14,9 @@ jobs:
   two:
     docker:
       - image: cimg/ruby:3.0.2
-      - auth:
-        username: mayur2345
-        password: kylo@6996
+        auth:
+          username: mayur2345
+          password: kylo@6996
     steps:
       - checkout
       - run: echo "A more familiar hi"
